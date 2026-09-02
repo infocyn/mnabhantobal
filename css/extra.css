@@ -71,9 +71,7 @@ html[dir="rtl"] .tabular-nums { direction: ltr; }
 .lang-trigger {
   display: inline-flex; align-items: center; gap: 0.5rem;
   border: 1px solid hsla(40, 41%, 91%, 0.7);
-  background: rgba(20, 17, 15, 0.45);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(20, 17, 15, 0.62);
   color: #f2ece0;
   font-family: var(--font-jetbrains), ui-monospace, monospace;
   font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
