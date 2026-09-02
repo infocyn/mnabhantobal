@@ -2,8 +2,8 @@
   "name": "M.nabhan Tobal — Senior Red Team & Cybersecurity Specialist",
   "short_name": "M.nabhan Tobal",
   "description": "M.nabhan Tobal (Infocyn) — Senior Red Team & cybersecurity specialist: penetration testing, vulnerability research, OSINT, security tooling, and AI-driven automation.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

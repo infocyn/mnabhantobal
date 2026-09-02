@@ -1,7 +1,5 @@
 User-Agent: *
 Allow: /
-Disallow: /api/
-Disallow: /_next/data/
 
-Host: https://ashutoshai.com
-Sitemap: https://ashutoshai.com/sitemap.xml
+Host: https://infocyn.github.io/mnabhantobal
+Sitemap: https://infocyn.github.io/mnabhantobal/sitemap.xml
