@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/data/
+
+Host: https://ashutoshai.com
+Sitemap: https://ashutoshai.com/sitemap.xml

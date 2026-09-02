@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="__variable_f367f3 __variable_eaa818 __variable_3c557b">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script>
+(function () {
+  try {
+    var d = document.documentElement;
+    var e = localStorage.getItem("theme");
+    function apply(t) {
+      d.classList.remove("light", "dark");
+      if (t) d.classList.add(t);
+      d.style.colorScheme = t || "light";
+    }
+    if (e === "light" || e === "dark") apply(e);
+    else if (e === "system") {
+      var m = window.matchMedia("(prefers-color-scheme: dark)");
+      apply(m.matches ? "dark" : "light");
+      m.addEventListener("change", function (ev) { if (localStorage.getItem("theme") === "system") apply(ev.matches ? "dark" : "light"); });
+    } else apply("light");
+    var q = new URLSearchParams(location.search).get("lang");
+    var lang = q || localStorage.getItem("lang") || (navigator.language || "").slice(0, 2).toLowerCase();
+    if (lang !== "ar" && lang !== "tr") lang = "en";
+    d.lang = lang;
+    d.dir = lang === "ar" ? "rtl" : "ltr";
+  } catch (err) {}
+})();
+</script>
+<meta name="theme-color" content="#f2ece0" media="(prefers-color-scheme: light)"/>
+<meta name="theme-color" content="#14110f" media="(prefers-color-scheme: dark)"/>
+<title>M.nabhan Tobal | Senior Red Team &amp; Cybersecurity Specialist</title>
+<meta name="description" content="Senior Red Team &amp; cybersecurity specialist with 4+ years of practical experience in penetration testing, vulnerability research, OSINT, security tool development, and AI-driven automation."/>
+<meta name="author" content="M.nabhan Tobal"/>
+<link rel="author" href="https://x.com/mnabhantobal"/>
+<meta name="keywords" content="M.nabhan Tobal, Infocyn, Red Team, cybersecurity, penetration testing, vulnerability research, OSINT, security tool development, Python, AI agents, automation, Telegram bots"/>
+<meta name="creator" content="M.nabhan Tobal"/>
+<meta name="publisher" content="Infocyn"/>
+<meta name="robots" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+<meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+<meta name="twitter:creator" content="@mnabhantobal"/>
+<meta name="twitter:site" content="@mnabhantobal"/>
+<meta name="social:twitter" content="https://x.com/mnabhantobal"/>
+<meta name="social:instagram" content="https://www.instagram.com/mnabhantobal"/>
+<meta name="social:threads" content="https://www.threads.com/@mnabhantobal"/>
+<meta name="social:facebook" content="https://www.facebook.com/mnabhentobal"/>
+<meta name="social:linkedin" content="https://www.linkedin.com/in/m-nabhan-tobal-b58764344"/>
+<meta name="social:github" content="https://github.com/infocyn"/>
+<meta name="social:website" content="https://www.infocyn.com/"/>
+<meta name="me" content="@mnabhantobal"/>
+<meta name="me" content="https://www.instagram.com/mnabhantobal/"/>
+<meta name="me" content="https://www.threads.com/@mnabhantobal"/>
+<meta property="og:title" content="M.nabhan Tobal | Senior Red Team &amp; Cybersecurity Specialist"/>
+<meta property="og:description" content="Senior Red Team &amp; cybersecurity specialist with 4+ years of practical experience in penetration testing, vulnerability research, OSINT, security tool development, and AI-driven automation."/>
+<meta property="og:url" content="https://ashutoshai.com"/>
+<meta property="og:site_name" content="M.nabhan Tobal"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:image" content="/opengraph-image"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="M.nabhan Tobal | Senior Red Team &amp; Cybersecurity Specialist"/>
+<meta name="twitter:description" content="Senior Red Team &amp; cybersecurity specialist with 4+ years of practical experience in penetration testing, vulnerability research, OSINT, security tool development, and AI-driven automation."/>
+<meta name="twitter:image" content="/twitter-image"/>
+<link rel="canonical" href="https://ashutoshai.com"/>
+<link rel="preload" href="_next/static/media/26dc4a78f0c7af7f-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="_next/static/media/bb3ef058b751a6ad-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="_next/static/media/e4af272ccee01ff0-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" as="image" href="assets/hero-banner.png" fetchpriority="high"/>
+<link rel="preload" href="fonts/amiri-400-ar.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="fonts/amiri-700-ar.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="fonts/plex-ar-400-ar.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="fonts/plex-ar-500-ar.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="preload" href="fonts/plex-ar-700-ar.woff2" as="font" crossorigin="" type="font/woff2"/>
+<link rel="stylesheet" href="_next/static/css/5c104844c97db3a1.css"/>
+<link rel="stylesheet" href="css/extra.css"/>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+<link rel="manifest" href="site.webmanifest"/>
+<link rel="icon" href="favicon.ico" sizes="any"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://ashutoshai.com/#person","name":"M.nabhan Tobal","alternateName":["M. Nabhan Tobal","@mnabhantobal"],"url":"https://www.infocyn.com/","sameAs":["https://www.infocyn.com/","https://x.com/mnabhantobal","https://www.instagram.com/mnabhantobal","https://www.threads.com/@mnabhantobal","https://www.facebook.com/mnabhentobal","https://www.linkedin.com/in/m-nabhan-tobal-b58764344","https://github.com/infocyn"],"jobTitle":"Senior Red Team & Cybersecurity Specialist","worksFor":{"@id":"https://ashutoshai.com/#organization"},"description":"Senior Red Team & cybersecurity specialist with 4+ years of practical experience in penetration testing, vulnerability research, OSINT, security tool development, and AI-driven automation.","knowsAbout":["Red Team","Cybersecurity","Penetration Testing","Vulnerability Research","OSINT","Security Tool Development","Python","AI Agents","Automation","Telegram Bots"],"mainEntityOfPage":{"@id":"https://ashutoshai.com/#webpage"}},{"@type":"Organization","@id":"https://ashutoshai.com/#organization","name":"Infocyn","url":"https://www.infocyn.com/","logo":{"@type":"ImageObject","url":"https://ashutoshai.com/android-chrome-512x512.png","width":512,"height":512},"founder":{"@id":"https://ashutoshai.com/#person"},"sameAs":["https://www.infocyn.com/","https://x.com/mnabhantobal","https://github.com/infocyn"]},{"@type":"WebSite","@id":"https://ashutoshai.com/#website","url":"https://ashutoshai.com","name":"M.nabhan Tobal","publisher":{"@id":"https://ashutoshai.com/#organization"},"inLanguage":"en"},{"@type":"ProfilePage","@id":"https://ashutoshai.com/#webpage","url":"https://ashutoshai.com","name":"M.nabhan Tobal | AI Consultant & Tech Influencer","isPartOf":{"@id":"https://ashutoshai.com/#website"},"about":{"@id":"https://ashutoshai.com/#person"},"mainEntity":{"@id":"https://ashutoshai.com/#person"},"inLanguage":"en"}]}</script>
+</head>
+<body class="font-sans antialiased bg-paper dark:bg-ink-900 text-ink dark:text-paper transition-colors duration-300">
+<div id="progress" class="fixed top-0 left-0 right-0 h-[2.5px] z-[120] origin-left bg-gradient-to-r from-flare-600 via-flare to-flare-300 shadow-[0_1px_10px_rgba(255,75,31,0.45)]" style="transform:scaleX(0)"></div>
+<main class="relative min-h-screen w-full overflow-x-hidden">
+<div class="relative text-ink">
+<section id="top" class="relative isolate overflow-hidden min-h-[100svh] flex flex-col bg-ink">
+  <div class="absolute inset-x-0 -top-[9%] -bottom-[9%] -z-20">
+    <img alt="M.nabhan Tobal" fetchpriority="high" decoding="async" class="hero-img object-cover object-[70%_50%] hero-zoom w-full h-full absolute inset-0" src="assets/hero-banner.png"/>
+  </div>
+  <div aria-hidden="true" class="hero-vign pointer-events-none absolute inset-0 -z-10"></div>
+  <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-24 md:h-28 -z-10" style="background:linear-gradient(180deg, rgba(8,6,5,0.65) 0%, rgba(8,6,5,0.25) 60%, rgba(8,6,5,0) 100%)"></div>
+  <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 bottom-0 h-40 -z-10" style="background:linear-gradient(180deg, rgba(8,6,5,0) 0%, rgba(8,6,5,0.55) 100%)"></div>
+  <div aria-hidden="true" class="hero-circuit circuit-mask pointer-events-none absolute inset-0 z-0 overflow-hidden">
+    <canvas class="block w-full h-full"></canvas>
+  </div>
+  <div class="relative z-50">
+    <nav class="relative z-40 bg-transparent hero-anim" style="--d:0s">
+      <div class="max-w-[1440px] mx-auto px-5 md:px-10 h-14 md:h-20 flex items-center justify-between">
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#work" class="nav-link group relative font-mono text-[11px] uppercase tracking-[0.18em] transition-colors text-paper/75 hover:text-paper"><span data-i18n="nav.work">Work</span><span class="nav-ul absolute left-0 -bottom-1 h-px w-full bg-flare origin-left transition-transform duration-300 ease-out-expo scale-x-0 group-hover:scale-x-100"></span></a>
+          <a href="#services" class="nav-link group relative font-mono text-[11px] uppercase tracking-[0.18em] transition-colors text-paper/75 hover:text-paper"><span data-i18n="nav.services">Services</span><span class="nav-ul absolute left-0 -bottom-1 h-px w-full bg-flare origin-left transition-transform duration-300 ease-out-expo scale-x-0 group-hover:scale-x-100"></span></a>
+          <a href="#partners" class="nav-link group relative font-mono text-[11px] uppercase tracking-[0.18em] transition-colors text-paper/75 hover:text-paper"><span data-i18n="nav.partners">Partners</span><span class="nav-ul absolute left-0 -bottom-1 h-px w-full bg-flare origin-left transition-transform duration-300 ease-out-expo scale-x-0 group-hover:scale-x-100"></span></a>
+          <a href="#capabilities" class="nav-link group relative font-mono text-[11px] uppercase tracking-[0.18em] transition-colors text-paper/75 hover:text-paper"><span data-i18n="nav.channels">Capabilities</span><span class="nav-ul absolute left-0 -bottom-1 h-px w-full bg-flare origin-left transition-transform duration-300 ease-out-expo scale-x-0 group-hover:scale-x-100"></span></a>
+        </div>
+        <div class="nav-right flex items-center gap-2.5">
+          <button type="button" id="theme-toggle" aria-label="Switch to dark mode" class="group relative inline-flex items-center justify-center w-9 h-9 shrink-0 rounded-full border border-paper/50 text-paper bg-paper/5 backdrop-blur-sm hover:bg-paper hover:text-ink hover:border-paper active:scale-90 transition-all duration-300">
+            <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden w-3.5 h-3.5 transition-transform duration-500 ease-out-expo group-hover:rotate-45"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden w-3.5 h-3.5 transition-transform duration-500 ease-out-expo group-hover:-rotate-[25deg]"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            <span id="icon-theme-placeholder" class="block w-3.5 h-3.5 rounded-full bg-paper/30"></span>
+          </button>
+          <span class="magnetic inline-block hidden md:inline-block" data-strength="0.3">
+            <a href="#contact" class="group btn-sheen inline-flex items-center gap-1.5 bg-paper text-ink rounded-full pl-4 pr-1.5 py-1.5 font-mono text-[10.5px] uppercase tracking-[0.18em] hover:bg-flare hover:text-paper active:scale-[0.97] transition-all duration-300 hover:shadow-flare-glow"><span data-i18n="nav.cta">Get in touch</span><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-ink text-paper group-hover:rotate-45 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+          </span>
+          <div class="lang-picker relative shrink-0" id="lang-picker">
+            <button type="button" id="lang-trigger" class="lang-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              <span id="lang-current" class="lang-current">English</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lang-chev w-3 h-3 shrink-0" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="lang-menu" role="listbox" aria-label="Language">
+              <button type="button" class="lang-option active" data-lang="en" role="option" aria-selected="true">
+                <span class="lang-name">English</span>
+                <span class="lang-code">EN</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lang-check w-3.5 h-3.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+              </button>
+              <button type="button" class="lang-option" data-lang="ar" role="option" aria-selected="false">
+                <span class="lang-name">العربية</span>
+                <span class="lang-code">AR</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lang-check w-3.5 h-3.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+              </button>
+              <button type="button" class="lang-option" data-lang="tr" role="option" aria-selected="false">
+                <span class="lang-name">Türkçe</span>
+                <span class="lang-code">TR</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lang-check w-3.5 h-3.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="relative z-10 flex-1 flex flex-col justify-center px-5 md:px-10 py-8 md:py-12">
+    <div class="max-w-[1440px] mx-auto w-full">
+      <div class="max-w-[640px] lg:max-w-[720px] xl:max-w-[820px] text-left">
+        <h1 class="font-serif leading-[0.9] tracking-tightest text-paper text-balance" style="font-feature-settings:'ss01', 'ss02'">
+          <span class="mask-line block overflow-hidden text-[14vw] md:text-[10vw] lg:text-[7.5vw] xl:text-[7.5rem] 2xl:text-[8.5rem] relative" style="--d:0.15s;padding-bottom:0.26em;margin-bottom:calc(0.26em * -1)">
+            <span class="mask-inner block will-change-transform">
+              <span class="relative inline-block">M.nabhan<svg aria-hidden="true" viewBox="0 0 400 20" class="absolute -bottom-1 md:-bottom-2 left-0 w-full h-[0.14em]" preserveAspectRatio="none"><path id="h1-underline" d="M 2 12 C 80 4, 180 18, 260 8 S 380 14, 398 6" stroke="#ff4b1f" stroke-width="5" stroke-linecap="round" fill="none" pathLength="1" stroke-dasharray="0 1"/></svg></span>
+            </span>
+          </span>
+          <span class="mask-line block overflow-hidden italic text-[14vw] md:text-[10vw] lg:text-[7.5vw] xl:text-[7.5rem] 2xl:text-[8.5rem] mt-1 text-flare" style="--d:0.3s;padding-bottom:0.12em;margin-bottom:calc(0.12em * -1)">
+            <span class="mask-inner block will-change-transform">Tobal<span class="not-italic">.</span></span>
+          </span>
+        </h1>
+        <div class="mt-5 md:mt-7 flex items-center hero-anim" style="--d:0.4s">
+          <div class="h-7 md:h-8 overflow-hidden relative min-w-[220px] md:min-w-[280px]">
+            <div id="role-wrap" class="absolute inset-0 flex items-center">
+              <span id="role-text" class="text-xl md:text-2xl font-serif italic text-paper">Senior Red Team Specialist</span>
+            </div>
+          </div>
+        </div>
+        <p class="mt-4 md:mt-5 text-lg md:text-xl lg:text-[1.35rem] leading-[1.55] text-paper/80 text-pretty font-light max-w-[52ch] hero-anim hero-blur" style="--d:0.5s"><span data-i18n="hero.t1">I write about</span> <span class="text-paper font-medium" data-i18n="hero.t2">AI &amp; emerging tech</span> <span data-i18n="hero.t3">and help ambitious brands narrate product launches on X.</span></p>
+        <div class="mt-7 md:mt-9 flex flex-wrap items-center gap-2.5 hero-anim" style="--d:0.65s">
+          <span class="magnetic inline-block" data-strength="0.25">
+            <a href="#contact" class="group btn-sheen inline-flex items-center gap-1.5 bg-paper text-ink rounded-full pl-5 pr-1.5 py-2 font-mono text-[11px] uppercase tracking-[0.18em] hover:bg-flare hover:text-paper active:scale-[0.97] transition-all duration-300 ease-out-expo shadow-[0_10px_28px_-12px_rgba(0,0,0,0.7)] hover:shadow-flare-glow"><span data-i18n="hero.cta">Work with me</span><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-ink text-paper group-hover:rotate-45 transition-transform duration-300"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+          </span>
+          <div class="flex items-center gap-1.5 ml-0.5">
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:0.85s"><a href="https://x.com/mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="X" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 bg-paper text-ink hover:bg-flare hover:text-paper hover:shadow-flare-glow"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:0.92s"><a href="https://www.instagram.com/mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:0.99s"><a href="https://www.threads.com/@mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="Threads" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:1.06s"><a href="https://www.linkedin.com/in/m-nabhan-tobal-b58764344" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:1.13s"><a href="https://www.facebook.com/mnabhentobal" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:1.2s"><a href="https://github.com/infocyn" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a></span>
+            <span class="magnetic inline-block hero-anim" data-strength="0.35" style="--d:1.27s"><a href="https://www.infocyn.com/" target="_blank" rel="noopener noreferrer" aria-label="Website" class="inline-flex items-center justify-center rounded-full transition-colors duration-300 w-9 h-9 active:scale-90 border-2 border-paper/25 text-paper/80 hover:border-paper hover:bg-paper hover:text-ink"><svg stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" class="w-3.5 h-3.5" height="1em" width="1em"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#work" aria-label="Scroll to content" class="scroll-ind hero-anim hidden md:flex absolute bottom-20 right-10 z-10 flex-col items-center gap-3 group" style="--d:1.1s">
+    <span class="font-mono text-[10px] uppercase tracking-[0.3em] text-paper/55 [writing-mode:vertical-rl] group-hover:text-paper transition-colors" data-i18n="hero.scroll">Scroll</span>
+    <span class="relative block h-12 w-px bg-paper/25 overflow-hidden"><span class="scroll-line absolute left-0 top-0 block h-4 w-full bg-flare"></span></span>
+  </a>
+  <div class="relative bg-ink text-paper dark:bg-paper dark:text-ink border-t hairline border-t-[rgba(242,236,224,0.14)] py-3 overflow-hidden marquee-pause marquee-mask">
+    <div class="marquee-track font-mono text-[11px] uppercase tracking-[0.22em]">
+      <div class="flex items-center shrink-0"><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.0">150+ unique clients</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.1">Writing since 2023</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.2">AI · Product · Storytelling</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.3">Available for collaborations</span><span class="mx-6 text-flare">✦</span></div></div>
+      <div class="flex items-center shrink-0"><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.0">150+ unique clients</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.1">Writing since 2023</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.2">AI · Product · Storytelling</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.3">Available for collaborations</span><span class="mx-6 text-flare">✦</span></div></div>
+      <div class="flex items-center shrink-0"><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.0">150+ unique clients</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.1">Writing since 2023</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.2">AI · Product · Storytelling</span><span class="mx-6 text-flare">✦</span></div><div class="flex items-center shrink-0 px-6"><span class="text-paper/85 dark:text-ink/85" data-i18n="marquee.3">Available for collaborations</span><span class="mx-6 text-flare">✦</span></div></div>
+    </div>
+  </div>
+</section>
+<section class="relative bg-ink text-paper dark:bg-paper dark:text-ink overflow-hidden">
+  <div class="max-w-[1440px] mx-auto px-5 md:px-10 py-8 md:py-12">
+    <div class="stats-grid grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-0 gap-x-8 md:gap-x-0 md:divide-x divide-paper/10 dark:divide-ink/10">
+      <div class="stats-cell md:px-10 lg:px-12 first:md:pl-0 last:md:pr-0 rev rev-blur" style="--d:0s">
+        <div class="font-serif text-5xl md:text-6xl xl:text-7xl leading-[0.95] tracking-tightest"><span class="tabular-nums" data-count="4" data-suffix="+"><span>0</span>+</span></div>
+        <div class="mt-4 h-px w-10 bg-flare origin-left rev-bar" style="--d:0.35s"></div>
+        <div class="mt-4 font-sans text-sm md:text-base text-paper dark:text-ink" data-i18n="stats.s1label">Unique clients</div>
+        <div class="mt-1 font-mono text-[10.5px] uppercase tracking-[0.22em] text-paper/45 dark:text-ink/50" data-i18n="stats.s1note">sponsorships &amp; content</div>
+      </div>
+      <div class="stats-cell md:px-10 lg:px-12 first:md:pl-0 last:md:pr-0 rev rev-blur" style="--d:0.12s">
+        <div class="font-serif text-5xl md:text-6xl xl:text-7xl leading-[0.95] tracking-tightest"><span class="italic">Infocyn</span></div>
+        <div class="mt-4 h-px w-10 bg-flare origin-left rev-bar" style="--d:0.45s"></div>
+        <div class="mt-4 font-sans text-sm md:text-base text-paper dark:text-ink" data-i18n="stats.s2label">Writing on X</div>
+        <div class="mt-1 font-mono text-[10.5px] uppercase tracking-[0.22em] text-paper/45 dark:text-ink/50" data-i18n="stats.s2note">since 2023</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="relative grain px-5 md:px-10 py-12 md:py-16 overflow-hidden">
+  <div class="max-w-[1440px] mx-auto">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="work.header">01 · Philosophy</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="work.side">Writing since 2023</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16">
+      <div class="md:col-span-5 rev" style="--d:0s">
+        <h2 class="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-ultratight text-ink dark:text-paper">
+          <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform" data-i18n="work.w1">Organic.</span></span>
+          <span class="mask-line block overflow-hidden italic text-flare" style="--d:0.17s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform" data-i18n="work.w2">Authentic.</span></span>
+          <span class="mask-line block overflow-hidden" style="--d:0.29s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform" data-i18n="work.w3">Relentless.</span></span>
+        </h2>
+        <p class="mt-8 font-mono text-[11px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50 max-w-xs" data-i18n="work.sub">Just writing on X, every day, since 2023.</p>
+      </div>
+      <div class="md:col-span-7 md:pt-4 rev" style="--d:0.15s">
+        <p class="text-xl md:text-2xl leading-[1.5] text-ink/85 dark:text-paper/85 text-pretty" data-i18n="work.p1">I collaborate directly with founders, product teams, and leading agencies to tell the story of new AI products, the way people actually want to read about them.</p>
+        <figure class="bq my-12 md:my-14 relative pl-6 md:pl-10">
+          <span aria-hidden="true" class="bq-bar absolute left-0 top-0 bottom-0 w-[2px] bg-flare origin-top rev-bar" style="--d:0.15s"></span>
+          <span aria-hidden="true" class="bq-deco absolute -left-3 -top-6 font-serif text-8xl md:text-9xl text-flare/15 leading-none select-none rev-pop" style="--d:0.25s" data-i18n="work.decoQuote">“</span>
+          <blockquote class="font-serif italic text-2xl md:text-3xl leading-[1.3] text-ink dark:text-paper" data-i18n="work.quote">The internet rewards sincerity. Write things you actually believe, for people you actually respect. Compounding does the rest.</blockquote>
+          <figcaption class="mt-4 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" data-i18n="work.caption">A working principle</figcaption>
+        </figure>
+        <p class="text-base md:text-lg leading-[1.7] text-ink/70 dark:text-paper/70 text-pretty max-w-xl" data-i18n="work.p2">My focus is almost entirely on X: organic growth, authentic storytelling, and content that connects with real people. I’ve worked with 150+ unique clients through clear, high-impact threads, the kind that get shared, saved, and remembered long after the ad spend dries up.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="relative px-5 md:px-10 py-12 md:py-16 bg-paper-soft dark:bg-ink-800 border-y hairline border-y-[rgba(20,17,15,0.14)] dark:border-y-[rgba(242,236,224,0.1)] grain overflow-hidden">
+  <div class="max-w-[1440px] mx-auto relative">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="services.header">02 · Services</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="services.side">What I can do with you</span>
+    </div>
+    <h2 class="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.92] tracking-ultratight max-w-5xl text-ink dark:text-paper">
+      <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform"><span data-i18n="services.t1">Three ways we can</span> <span class="italic text-flare" data-i18n="services.t2">build</span> <span class="italic" data-i18n="services.t3">something</span><span data-i18n="services.t4"> together.</span></span></span>
+    </h2>
+    <div class="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-3 gap-px bg-ink/10 dark:bg-paper/10 rounded-[28px] overflow-hidden border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)]">
+      <div class="svc-card rev group relative flex flex-col overflow-hidden bg-paper-soft dark:bg-ink-800 p-8 md:p-10 hover:bg-paper dark:hover:bg-ink-700 transition-colors duration-500" style="--d:0s">
+        <span class="cardbar absolute top-0 left-0 h-[2px] w-full bg-flare origin-left scale-x-0 transition-transform duration-500 ease-out-expo group-hover:scale-x-100"></span>
+        <span aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.08),transparent_65%)] dark:bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.14),transparent_65%)]"></span>
+        <span aria-hidden="true" class="svc-ghost pointer-events-none absolute top-4 right-5 md:top-6 md:right-7 select-none font-serif italic text-[5rem] md:text-[7rem] leading-none text-ink/[0.05] dark:text-paper/[0.06] origin-top-right group-hover:text-flare/10 group-hover:scale-110 group-hover:-rotate-6 transition-all duration-500 ease-out-expo">01</span>
+        <div class="relative mb-8"><span class="font-mono text-[11px] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">01</span></div>
+        <h3 class="rtl-move relative font-serif text-3xl md:text-4xl leading-[1.05] tracking-tight mb-5 text-ink dark:text-paper transition-transform duration-500 ease-out-expo group-hover:translate-x-1" data-i18n="services.c1t">Sponsorships</h3>
+        <p class="relative text-ink/70 dark:text-paper/70 leading-[1.65] text-base md:text-lg max-w-lg text-pretty" data-i18n="services.c1b">Authentic integrations within the content my audience already reads. No generic ad reads, just real evaluations, real use cases, and measurable attention from an engaged AI and technology audience.</p>
+        <div class="svc-arrow relative mt-auto pt-8 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-5 h-5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 group-hover:scale-110 transition-all duration-300"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></div>
+      </div>
+      <div class="svc-card rev group relative flex flex-col overflow-hidden bg-paper-soft dark:bg-ink-800 p-8 md:p-10 hover:bg-paper dark:hover:bg-ink-700 transition-colors duration-500" style="--d:0.08s">
+        <span class="cardbar absolute top-0 left-0 h-[2px] w-full bg-flare origin-left scale-x-0 transition-transform duration-500 ease-out-expo group-hover:scale-x-100"></span>
+        <span aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.08),transparent_65%)] dark:bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.14),transparent_65%)]"></span>
+        <span aria-hidden="true" class="svc-ghost pointer-events-none absolute top-4 right-5 md:top-6 md:right-7 select-none font-serif italic text-[5rem] md:text-[7rem] leading-none text-ink/[0.05] dark:text-paper/[0.06] origin-top-right group-hover:text-flare/10 group-hover:scale-110 group-hover:-rotate-6 transition-all duration-500 ease-out-expo">02</span>
+        <div class="relative mb-8"><span class="font-mono text-[11px] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">02</span></div>
+        <h3 class="rtl-move relative font-serif text-3xl md:text-4xl leading-[1.05] tracking-tight mb-5 text-ink dark:text-paper transition-transform duration-500 ease-out-expo group-hover:translate-x-1" data-i18n="services.c2t">Advisory</h3>
+        <p class="relative text-ink/70 dark:text-paper/70 leading-[1.65] text-base md:text-lg max-w-lg text-pretty" data-i18n="services.c2b">Ongoing conversations with founders and growth teams on AI positioning, content strategy, and how to build organic distribution that compounds. I help you figure out the best way forward, not run your launches for you.</p>
+        <div class="svc-arrow relative mt-auto pt-8 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-5 h-5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 group-hover:scale-110 transition-all duration-300"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></div>
+      </div>
+      <div class="svc-card rev group relative flex flex-col overflow-hidden bg-paper-soft dark:bg-ink-800 p-8 md:p-10 hover:bg-paper dark:hover:bg-ink-700 transition-colors duration-500" style="--d:0.16s">
+        <span class="cardbar absolute top-0 left-0 h-[2px] w-full bg-flare origin-left scale-x-0 transition-transform duration-500 ease-out-expo group-hover:scale-x-100"></span>
+        <span aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.08),transparent_65%)] dark:bg-[radial-gradient(420px_circle_at_15%_-5%,rgba(255,75,31,0.14),transparent_65%)]"></span>
+        <span aria-hidden="true" class="svc-ghost pointer-events-none absolute top-4 right-5 md:top-6 md:right-7 select-none font-serif italic text-[5rem] md:text-[7rem] leading-none text-ink/[0.05] dark:text-paper/[0.06] origin-top-right group-hover:text-flare/10 group-hover:scale-110 group-hover:-rotate-6 transition-all duration-500 ease-out-expo">03</span>
+        <div class="relative mb-8"><span class="font-mono text-[11px] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">03</span></div>
+        <h3 class="rtl-move relative font-serif text-3xl md:text-4xl leading-[1.05] tracking-tight mb-5 text-ink dark:text-paper transition-transform duration-500 ease-out-expo group-hover:translate-x-1" data-i18n="services.c3t">Creative Partner</h3>
+        <p class="relative text-ink/70 dark:text-paper/70 leading-[1.65] text-base md:text-lg max-w-lg text-pretty" data-i18n="services.c3b">Early access programs with leading AI companies. I test features pre-release, provide product feedback, and translate new capability into story that lands on X.</p>
+        <div class="svc-arrow relative mt-auto pt-8 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-5 h-5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 group-hover:scale-110 transition-all duration-300"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></div>
+      </div>
+    </div>
+    <div class="rev mt-8 md:mt-10" style="--d:0.1s">
+      <div class="pipeline rounded-2xl border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)] bg-paper-soft/70 dark:bg-ink-800/70 px-6 py-5 flex flex-wrap items-center justify-between gap-3">
+        <span class="font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" data-i18n="pipeline.label">Custom tooling across the full lifecycle</span>
+        <div class="flex flex-wrap items-center gap-2" dir="ltr">
+          <span class="pipeline-step">Reconnaissance</span>
+          <span class="pipeline-arrow" aria-hidden="true">→</span>
+          <span class="pipeline-step">Enumeration</span>
+          <span class="pipeline-arrow" aria-hidden="true">→</span>
+          <span class="pipeline-step">Analysis</span>
+          <span class="pipeline-arrow" aria-hidden="true">→</span>
+          <span class="pipeline-step">Security Testing</span>
+          <span class="pipeline-arrow" aria-hidden="true">→</span>
+          <span class="pipeline-step">Validation</span>
+          <span class="pipeline-arrow" aria-hidden="true">→</span>
+          <span class="pipeline-step">Reporting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="partners" class="relative px-5 md:px-10 py-12 md:py-16 overflow-hidden grain">
+  <div class="max-w-[1440px] mx-auto">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="partners.header">03 · Creative partners</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="partners.side">Early access · launch support</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 mb-6 md:mb-10">
+      <h2 class="md:col-span-7 font-serif text-5xl md:text-6xl lg:text-[5rem] leading-[0.95] tracking-tightest text-ink dark:text-paper">
+        <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform"><span data-i18n="partners.t1">Trusted by the labs</span> <span class="italic text-flare" data-i18n="partners.t2">shaping</span><span data-i18n="partners.t3"> what comes next.</span></span></span>
+      </h2>
+      <p class="rev rev-blur md:col-span-5 md:col-start-8 md:pt-4 text-ink/70 dark:text-paper/70 text-lg leading-[1.6] text-pretty" style="--d:0.2s" data-i18n="partners.p">I’m part of Creative Partner and Early Access programs with leading AI companies, including pre-release testing, direct feedback loops, and launch-week storytelling.</p>
+    </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
+      <a href="https://nousresearch.com/" target="_blank" rel="noopener noreferrer" title="Hermes" class="rev group relative flex items-center gap-3 rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 px-4 py-3 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1.5 active:scale-[0.98] transition-all duration-300 ease-spring shadow-lift hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.28)] dark:shadow-none dark:hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.2)]" style="--d:0s">
+        <div class="relative w-11 h-11 shrink-0 rounded-xl overflow-hidden ring-1 ring-ink/5 dark:ring-paper/10 bg-white flex items-center justify-center transition-transform duration-500 ease-out-expo group-hover:scale-105"><img alt="Hermes" loading="lazy" decoding="async" class="w-full h-full object-cover" src="assets/hermes-logo.png"/></div>
+        <div class="min-w-0 flex-1"><div class="font-serif text-base md:text-lg leading-tight tracking-tight text-ink dark:text-paper truncate">Hermes</div><div class="mt-0.5 flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.2em] text-ink/45 dark:text-paper/45 group-hover:text-flare transition-colors"><span class="inline-block w-1 h-1 rounded-full bg-flare"></span><span data-i18n="partners.tagEarly">LLM</span></div></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+      </a>
+      <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer" title="Claude Code" class="rev group relative flex items-center gap-3 rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 px-4 py-3 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1.5 active:scale-[0.98] transition-all duration-300 ease-spring shadow-lift hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.28)] dark:shadow-none dark:hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.2)]" style="--d:0.05s">
+        <div class="relative w-11 h-11 shrink-0 rounded-xl overflow-hidden ring-1 ring-ink/5 dark:ring-paper/10 bg-white flex items-center justify-center transition-transform duration-500 ease-out-expo group-hover:scale-105"><img alt="Claude Code" loading="lazy" decoding="async" class="w-full h-full object-cover" src="assets/claude-code-logo.png"/></div>
+        <div class="min-w-0 flex-1"><div class="font-serif text-base md:text-lg leading-tight tracking-tight text-ink dark:text-paper truncate">Claude Code</div><div class="mt-0.5 flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.2em] text-ink/45 dark:text-paper/45 group-hover:text-flare transition-colors"><span class="inline-block w-1 h-1 rounded-full bg-flare"></span><span data-i18n="partners.tagAgent">Coding agent</span></div></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+      </a>
+      <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer" title="OpenCode" class="rev group relative flex items-center gap-3 rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 px-4 py-3 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1.5 active:scale-[0.98] transition-all duration-300 ease-spring shadow-lift hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.28)] dark:shadow-none dark:hover:shadow-[0_16px_36px_-12px_rgba(255,75,31,0.2)]" style="--d:0.1s">
+        <div class="relative w-11 h-11 shrink-0 rounded-xl overflow-hidden ring-1 ring-ink/5 dark:ring-paper/10 bg-white flex items-center justify-center transition-transform duration-500 ease-out-expo group-hover:scale-105"><img alt="OpenCode" loading="lazy" decoding="async" class="w-full h-full object-cover" src="assets/opencode-logo.png"/></div>
+        <div class="min-w-0 flex-1"><div class="font-serif text-base md:text-lg leading-tight tracking-tight text-ink dark:text-paper truncate">OpenCode</div><div class="mt-0.5 flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.2em] text-ink/45 dark:text-paper/45 group-hover:text-flare transition-colors"><span class="inline-block w-1 h-1 rounded-full bg-flare"></span><span data-i18n="partners.tagAgent">Coding agent</span></div></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5 text-ink/30 dark:text-paper/30 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+<section id="automation" class="relative px-5 md:px-10 py-12 md:py-16 bg-paper-soft dark:bg-ink-800 border-y hairline border-y-[rgba(20,17,15,0.14)] dark:border-y-[rgba(242,236,224,0.1)] grain overflow-hidden">
+  <div class="max-w-[1440px] mx-auto relative">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="auto.header">04 · Automation &amp; Analytics</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="auto.side">Telegram bots &amp; financial tools</span>
+    </div>
+    <h2 class="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tightest text-ink dark:text-paper">
+      <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform"><span data-i18n="auto.t1">Automation that</span> <span class="italic text-flare" data-i18n="auto.t2">runs itself</span><span data-i18n="auto.t3"> — and tools that read the market.</span></span></span>
+    </h2>
+    <div class="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+      <div class="rev group rounded-2xl border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)] bg-white dark:bg-ink-800 p-6 md:p-8 hover:border-flare/40 hover:-translate-y-1 hover:shadow-lift dark:hover:shadow-[0_18px_44px_-16px_rgba(255,75,31,0.15)] transition-all duration-300 ease-out-expo" style="--d:0s">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="dot-flare shrink-0" aria-hidden="true"></span>
+          <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-ink dark:text-paper" data-i18n="auto.c1t">Telegram Bots &amp; Automation</h3>
+        </div>
+        <ul class="flex flex-col gap-3">
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c1b.0">Custom Telegram bot development</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c1b.1">API integration</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c1b.2">Task management & control</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c1b.3">Workflow automation</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c1b.4">Custom monitoring systems</span></li>
+        </ul>
+      </div>
+      <div class="rev group rounded-2xl border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)] bg-white dark:bg-ink-800 p-6 md:p-8 hover:border-flare/40 hover:-translate-y-1 hover:shadow-lift dark:hover:shadow-[0_18px_44px_-16px_rgba(255,75,31,0.15)] transition-all duration-300 ease-out-expo" style="--d:0.08s">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="dot-flare shrink-0" aria-hidden="true"></span>
+          <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-ink dark:text-paper" data-i18n="auto.c2t">Financial Markets &amp; Analytics</h3>
+        </div>
+        <ul class="flex flex-col gap-3">
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c2b.0">Market data analysis</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c2b.1">Custom analysis tools</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c2b.2">Automated data collection & processing</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c2b.3">Monitoring & analysis tooling</span></li>
+<li class="flex items-start gap-3 text-ink/70 dark:text-paper/80 leading-[1.7] text-base md:text-lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-1 shrink-0 text-flare" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="auto.c2b.4">Programmatic handling of financial data</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="capabilities" class="relative px-5 md:px-10 py-12 md:py-16 overflow-hidden grain">
+  <div class="max-w-[1440px] mx-auto">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="cap.header">05 · Capabilities</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="cap.side">Professional capabilities</span>
+    </div>
+    <h2 class="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tightest text-ink dark:text-paper">
+      <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.22em;margin-bottom:calc(0.22em * -1)"><span class="mask-inner block will-change-transform"><span data-i18n="cap.h1">Six</span> <span class="italic text-flare" data-i18n="cap.h2">disciplines</span><span data-i18n="cap.h3">, one integrated operation.</span></span></span>
+    </h2>
+    <div class="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">01</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c1">Offensive Security</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t1">Red Team · Penetration Testing · Vulnerability Research · Security Assessment</div>
+      </div>
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0.05s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">02</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c2">Reconnaissance</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t2">OSINT · Information Gathering · Attack Surface Analysis · Enumeration</div>
+      </div>
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0.1s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">03</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c3">Development</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t3">Python · Security Tooling · Automation · API Integration</div>
+      </div>
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0.15s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">04</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c4">Artificial Intelligence</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t4">AI Agents · LLMs · Multi-Agent Systems · AI Automation</div>
+      </div>
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0.2s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">05</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c5">Engineering</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t5">Web Development · Application Development · Telegram Bots · Custom Tools</div>
+      </div>
+      <div class="rev group relative rounded-2xl border border-ink/10 dark:border-paper/10 bg-white dark:bg-ink-800 p-6 hover:border-flare/50 dark:hover:border-flare/60 hover:-translate-y-1 transition-all duration-300 ease-spring shadow-lift" style="--d:0.25s">
+        <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-flare mb-3">06</div>
+        <div class="font-serif text-xl md:text-2xl tracking-tight text-ink dark:text-paper mb-3" data-i18n="cap.c6">Team Leadership</div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 leading-[1.7]" data-i18n="cap.t6">Technical Coordination · Project Development · Security Operations · Multi-Disciplinary Team</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="channels" class="relative px-5 md:px-10 py-12 md:py-16 bg-ink text-paper dark:bg-ink-800 overflow-hidden">
+  <div aria-hidden="true" class="pointer-events-none absolute -top-20 left-1/2 -translate-x-1/2 w-[900px] h-[400px] rounded-full opacity-25 blur-3xl animate-glow-drift" style="background:radial-gradient(closest-side, rgba(255,75,31,0.7), rgba(255,75,31,0) 70%)"></div>
+  <div class="max-w-[1440px] mx-auto relative">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="channels.header">04 · Where I write</span><span class="h-px flex-1 bg-paper/15"></span><span data-i18n="channels.side">X is the home base</span>
+    </div>
+    <div class="quote-in rev rev-blur max-w-5xl origin-left" style="--d:0.1s">
+      <p class="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tightest text-pretty"><span class="text-flare font-serif" data-i18n="work.decoQuote">“</span><span data-i18n="channels.q1">If the idea is </span><em class="italic text-flare" data-i18n="channels.q2">good enough</em><span data-i18n="channels.q3">, people will find it. My job is to make sure the idea lands in front of them with the shape it deserves.</span><span class="text-flare font-serif" data-i18n="work.decoQuote">”</span></p>
+    </div>
+    <div class="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-paper/10 rounded-2xl overflow-hidden border border-paper/10">
+      <a href="https://x.com/mnabhantobal" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0s">
+        <span class="absolute top-0 left-0 right-0 h-[2px] bg-flare"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-3.5 h-3.5 text-flare" height="1em" width="1em"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg><span class="inline-flex items-center rounded-full bg-flare text-ink px-2 py-0.5 text-[9px] font-bold tracking-[0.22em]" data-i18n="channels.primary">Primary</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">@mnabhantobal</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.xNote">Daily AI breakdowns · product and growth</div>
+        <div class="flex-1"></div>
+        <div class="mt-5 pt-4 border-t border-paper/10 flex items-baseline gap-2"><span class="font-serif text-2xl md:text-3xl leading-none tracking-tightest text-flare tabular-nums">80K+</span><span class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-paper/50" data-i18n="channels.followers">followers</span></div>
+      </a>
+      <a href="https://www.linkedin.com/in/m-nabhan-tobal-b58764344" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0.06s">
+        <span class="cardbar absolute top-0 left-0 right-0 h-[2px] bg-flare origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out-expo"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg><span>LinkedIn</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">M. Nabhan Tobal</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.liNote">Long-form commentary · new in 2026</div>
+        <div class="flex-1"></div>
+        <div class="mt-5 pt-4 border-t border-paper/10 flex items-baseline gap-2"><span class="font-serif text-2xl md:text-3xl leading-none tracking-tightest text-flare tabular-nums">250+</span><span class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-paper/50" data-i18n="channels.followers">followers</span></div>
+      </a>
+      <a href="https://www.instagram.com/mnabhantobal" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0.12s">
+        <span class="cardbar absolute top-0 left-0 right-0 h-[2px] bg-flare origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out-expo"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg><span>Instagram</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">@mnabhantobal</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.igNote">Short-form visual breakdowns · new in 2026</div>
+        <div class="flex-1"></div>
+      </a>
+      <a href="https://www.threads.com/@mnabhantobal" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0.18s">
+        <span class="cardbar absolute top-0 left-0 right-0 h-[2px] bg-flare origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out-expo"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg><span>Threads</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">@mnabhantobal</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.thNote">Quick AI thoughts and updates</div>
+        <div class="flex-1"></div>
+      </a>
+      <a href="https://www.facebook.com/mnabhentobal" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0.24s">
+        <span class="cardbar absolute top-0 left-0 right-0 h-[2px] bg-flare origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out-expo"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg><span>Facebook</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">mnabhentobal</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.fbNote">Community updates and conversations</div>
+        <div class="flex-1"></div>
+      </a>
+      <a href="https://github.com/infocyn" target="_blank" rel="noopener noreferrer" class="rev group relative bg-ink p-6 md:p-7 hover:bg-ink-800 transition-colors duration-500 flex flex-col" style="--d:0.3s">
+        <span class="cardbar absolute top-0 left-0 right-0 h-[2px] bg-flare origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out-expo"></span>
+        <div class="flex items-start justify-between gap-3 mb-5">
+          <div class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.22em] text-paper/55 flex-wrap"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg><span>GitHub</span></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-4 h-4 text-paper/40 group-hover:text-flare group-hover:rotate-45 transition-all duration-300 shrink-0"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </div>
+        <div class="rtl-move font-serif text-xl md:text-2xl leading-tight tracking-tight text-paper break-words transition-transform duration-500 ease-out-expo group-hover:translate-x-1">infocyn</div>
+        <div class="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-paper/50 leading-snug" data-i18n="channels.ghNote">Open-source projects and tools</div>
+        <div class="flex-1"></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="relative grain px-5 md:px-10 py-12 md:py-16 overflow-hidden">
+  <div class="max-w-[1440px] mx-auto relative">
+    <div class="rev flex items-center gap-3 mb-6 md:mb-8 font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50" style="--d:0s">
+      <span class="text-flare animate-pulse-dot">●</span><span data-i18n="contact.header">05 · Get in touch</span><span class="h-px flex-1 bg-ink/15 dark:bg-paper/15"></span><span data-i18n="contact.side">Replies within 24h</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 items-start">
+      <div class="md:col-span-7 rev" style="--d:0s">
+        <h2 class="font-serif text-6xl md:text-[8rem] lg:text-[10rem] leading-[0.86] tracking-ultratight text-ink dark:text-paper">
+          <span class="mask-line block overflow-hidden" style="--d:0.05s;padding-bottom:0.24em;margin-bottom:calc(0.24em * -1)"><span class="mask-inner block will-change-transform" data-i18n="contact.l1">Let’s</span></span>
+          <span class="mask-line block overflow-hidden italic text-flare" style="--d:0.17s;padding-bottom:0.24em;margin-bottom:calc(0.24em * -1)"><span class="mask-inner block will-change-transform" data-i18n="contact.l2">make</span></span>
+          <span class="mask-line block overflow-hidden" style="--d:0.29s;padding-bottom:0.24em;margin-bottom:calc(0.24em * -1)"><span class="mask-inner block will-change-transform" data-i18n="contact.l3">something.</span></span>
+        </h2>
+        <p class="mt-8 md:mt-12 max-w-xl text-lg md:text-xl text-ink/70 dark:text-paper/70 leading-[1.6] text-pretty" data-i18n="contact.p">Sponsorships, advisory, or a quick hello. Visit the website, explore the open-source work, or reach out on any of the social channels.</p>
+      </div>
+      <div class="md:col-span-5 md:pt-4 flex flex-col gap-4 rev" style="--d:0.2s">
+        <div class="group rounded-2xl border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)] bg-paper-soft/70 dark:bg-ink-800/70 p-6 md:p-7 hover:border-flare/40 hover:-translate-y-1 hover:shadow-lift-lg dark:hover:shadow-[0_18px_44px_-16px_rgba(255,75,31,0.15)] transition-all duration-300 ease-out-expo">
+          <div class="font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45 mb-3" data-i18n="contact.website">Website</div>
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <a href="https://www.infocyn.com/" target="_blank" rel="noopener noreferrer" class="link-underline text-lg md:text-xl font-serif italic text-ink dark:text-paper hover:text-flare dark:hover:text-flare transition-colors break-all">www.infocyn.com</a>
+            <button type="button" class="copy-btn inline-flex items-center gap-2 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper active:scale-95 transition-all" aria-label="Copy website" data-copy="https://www.infocyn.com/"><svg class="icon-copy w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><svg class="icon-check hidden w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> <span class="copy-label" data-i18n="common.copy">Copy</span></button>
+          </div>
+        </div>
+        <div class="group rounded-2xl border hairline border-[rgba(20,17,15,0.14)] dark:border-[rgba(242,236,224,0.1)] bg-paper-soft/70 dark:bg-ink-800/70 p-6 md:p-7 hover:border-flare/40 hover:-translate-y-1 hover:shadow-lift-lg dark:hover:shadow-[0_18px_44px_-16px_rgba(255,75,31,0.15)] transition-all duration-300 ease-out-expo">
+          <div class="font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45 mb-3" data-i18n="contact.github">GitHub</div>
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <a href="https://github.com/infocyn" target="_blank" rel="noopener noreferrer" class="link-underline text-lg md:text-xl font-serif italic text-ink dark:text-paper hover:text-flare dark:hover:text-flare transition-colors break-all">github.com/infocyn</a>
+            <button type="button" class="copy-btn inline-flex items-center gap-2 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper active:scale-95 transition-all" aria-label="Copy GitHub" data-copy="https://github.com/infocyn"><svg class="icon-copy w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><svg class="icon-check hidden w-3 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> <span class="copy-label" data-i18n="common.copy">Copy</span></button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
+          <span class="magnetic inline-block w-full" data-strength="0.18">
+            <a href="https://www.infocyn.com/" target="_blank" rel="noopener noreferrer" class="group btn-sheen w-full inline-flex items-center justify-center gap-2.5 rounded-2xl bg-ink text-paper dark:bg-paper dark:text-ink px-5 py-5 font-mono text-[11px] uppercase tracking-[0.2em] hover:bg-flare dark:hover:bg-flare dark:hover:text-paper active:scale-[0.98] transition-all duration-300 ease-out-expo hover:shadow-flare-glow"><svg stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" class="w-4 h-4"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><span data-i18n="contact.websiteBtn">Website</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          </span>
+          <span class="magnetic inline-block w-full" data-strength="0.18">
+            <a href="https://github.com/infocyn" target="_blank" rel="noopener noreferrer" class="group btn-sheen w-full inline-flex items-center justify-center gap-2.5 rounded-2xl bg-flare text-paper px-5 py-5 font-mono text-[11px] uppercase tracking-[0.2em] hover:brightness-105 active:scale-[0.98] transition-all duration-300 ease-out-expo shadow-[0_10px_30px_-10px_rgba(255,75,31,0.5)] hover:shadow-[0_16px_40px_-12px_rgba(255,75,31,0.55)]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-4 h-4" height="1em" width="1em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg><span data-i18n="contact.githubBtn">GitHub</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flip-arrow w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="relative border-t hairline border-t-[rgba(20,17,15,0.14)] dark:border-t-[rgba(242,236,224,0.1)] px-5 md:px-10 py-10 md:py-14">
+  <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <div class="leading-tight">
+      <div class="font-serif italic text-base text-ink dark:text-paper">M.nabhan Tobal</div>
+      <div class="font-mono text-[9.5px] uppercase tracking-[0.22em] text-ink/50 dark:text-paper/50 mt-1">© <span id="year">2026</span> · <span data-i18n="common.rights">All rights reserved</span></div>
+    </div>
+    <div class="flex items-center gap-2 flex-wrap">
+      <a href="https://x.com/mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="X" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
+      <a href="https://www.instagram.com/mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+      <a href="https://www.threads.com/@mnabhantobal" target="_blank" rel="noopener noreferrer" aria-label="Threads" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg></a>
+      <a href="https://www.linkedin.com/in/m-nabhan-tobal-b58764344" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
+      <a href="https://www.facebook.com/mnabhentobal" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+      <a href="https://github.com/infocyn" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="w-3.5 h-3.5" height="1em" width="1em"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+      <a href="https://www.infocyn.com/" target="_blank" rel="noopener noreferrer" aria-label="Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline border-[rgba(20,17,15,0.15)] dark:border-[rgba(242,236,224,0.15)] text-ink/70 dark:text-paper/70 hover:bg-ink hover:text-paper hover:border-ink dark:hover:bg-paper dark:hover:text-ink dark:hover:border-paper hover:-translate-y-1 active:scale-90 transition-all duration-300 ease-spring"><svg stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" class="w-3.5 h-3.5" height="1em" width="1em"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></a>
+    </div>
+  </div>
+</footer>
+</div>
+</main>
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
